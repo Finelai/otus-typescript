@@ -1,11 +1,15 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
+    "strict": true,
     "jsx": "react",
     "allowJs": true,
     "target": "ES6",
     "module": "ES6",
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "allowUnreachableCode": false,
+    "noImplicitReturns": true,
     "noImplicitAny": true,
     "sourceMap": false,
     "baseUrl": ".",
@@ -14,6 +18,7 @@
     "resolveJsonModule": true
   },
   "exclude": [
-      "**/*test.ts"
+      "**/*test.ts",
+      "dist/**/*"
   ]
 }
