@@ -4,21 +4,26 @@
     "strict": true,
     "jsx": "react",
     "allowJs": true,
-    "target": "ES6",
-    "module": "ES6",
+    "lib": ["es2020", "dom"],
+    "target": "es2022",
+    "module": "es2022",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowUnreachableCode": false,
+    "preserveConstEnums": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "sourceMap": false,
     "baseUrl": ".",
+    "types": ["node"],
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true
   },
   "exclude": [
       "**/*test.ts",
-      "dist/**/*"
-  ]
+      "dist/**/*",
+      "node_modules"
+  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
 }
