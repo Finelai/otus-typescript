@@ -10,10 +10,12 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowUnreachableCode": false,
+    "preserveConstEnums": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "sourceMap": false,
     "baseUrl": ".",
+    "types": ["node"],
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true
@@ -24,4 +26,5 @@
       "dist/**/*",
       "node_modules"
   ],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
 }
