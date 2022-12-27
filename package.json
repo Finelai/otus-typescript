@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "npx jest",
-    "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.cjs",
+    "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.js",
     "calc": "npx ts-node-esm src/utils/calc"
   },
   "repository": {
