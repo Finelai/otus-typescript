@@ -12,7 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/Finelai/otus-typescript.git"
   },
-  "type": "module",
   "keywords": [
     "typescript"
   ],

@@ -1,11 +1,11 @@
-import { createInterface } from "readline";
-import { stdin as input, stdout as output } from 'node:process';
+const readline = require('node:readline');
+const { stdin: input, stdout: output } = require('node:process');
 
 import { operate } from "./operate";
 
-const rl = createInterface({ input, output });
+const rl = readline.createInterface({ input, output });
 
-await rl.question('> ', (answer: string) => {
+rl.question('> ', (answer: string) => {
   console.log(operate(answer));
   rl.close();
 });
