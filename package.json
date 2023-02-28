@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx jest",
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.js",
-    "calc": "npx ts-node-esm utils/calc"
+    "calc": "npx ts-node utils/calc"
   },
   "repository": {
     "type": "git",
