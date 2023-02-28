@@ -16,7 +16,7 @@
     "sourceMap": false,
     "baseUrl": "./",
     "types": ["node"],
-    "rootDir": "src",
+    "rootDir": "./",
     "outDir": "dist",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
