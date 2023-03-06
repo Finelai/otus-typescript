@@ -6,7 +6,7 @@ export type ButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
   className?: string;
 };
 
-export const SassModuleExample: FC<ButtonProps> = ({ className, ...props }) => {
+export const TestComp: FC<ButtonProps> = ({ className, ...props }) => {
   const [opened, setOpened] = useState<boolean>(false);
   return (
     <div className={cn(className)}>
