@@ -8,28 +8,14 @@
       "eslint:recommended",
       "plugin:react/recommended",
       "plugin:@typescript-eslint/eslint-recommended",
-      "plugin:@typescript-eslint/recommended",
-      "plugin:import/errors",
-      "plugin:import/warnings"
+      "plugin:@typescript-eslint/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "plugins": [
-        "@typescript-eslint",
-        "import"
+        "@typescript-eslint"
     ],
     "rules": {
       "react/prop-types": "off",
-      "@typescript-eslint/no-var-requires": "off",
-      "import/no-unresolved": "error"
-    },
-    "settings": {
-      "import/parsers": {
-        "@typescript-eslint/parser": [".ts", ".tsx"]
-      },
-      "import/resolver": {
-        "typescript": {
-          "alwaysTryTypes": true
-        }
-      }
+      "@typescript-eslint/no-var-requires": "off"
     }
   }
